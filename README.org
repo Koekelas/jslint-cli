@@ -34,7 +34,7 @@ To lint a file, run:
 #+END_SRC
 
 * Updating JSLint
-Delete ~~/.jslint-cli/jslint.js~. jslint-cli will download JSLint on
+Delete =~/.jslint-cli/jslint.js=. jslint-cli will download JSLint on
 next run.
 
 * Flycheck extension
