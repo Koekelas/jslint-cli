@@ -23,7 +23,7 @@ This outputs:
   1,13 Expected ';' and instead saw '(end)'.
 #+END_SRC
 
-* Usage
+* Linting a file
 jslint-cli is meant to be used with [[http://www.flycheck.org/][Flycheck]]. As a consequence, it
 only reads from standard input.
 
