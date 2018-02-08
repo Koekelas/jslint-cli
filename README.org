@@ -1,0 +1,41 @@
+#+TITLE: JSLint CLI
+
+Run syntax and style checker [[https://jslint.com/][JSLint]] from a [[https://en.wikipedia.org/wiki/Command-line_interface][CLI]].
+
+* Getting started
+To install jslint-cli, run:
+
+#+BEGIN_SRC sh
+  git clone https://github.com/Koekelas/jslint-cli.git
+  cd jslint-cli/
+  npm i -g
+#+END_SRC
+
+To verify installation, run:
+
+#+BEGIN_SRC sh
+  echo "const x = 42" | jslint-cli
+#+END_SRC
+
+This outputs:
+
+#+BEGIN_SRC fundamental
+  1,13 Expected ';' and instead saw '(end)'.
+#+END_SRC
+
+* Usage
+jslint-cli is meant to be used with [[http://www.flycheck.org/][Flycheck]]. As a consequence, it
+only reads from standard input.
+
+To lint a file, run:
+
+#+BEGIN_SRC sh
+  jslint-cli < file.js
+#+END_SRC
+
+* Updating JSLint
+Delete ~~/.jslint-cli/jslint.js~. jslint-cli will download JSLint on
+next run.
+
+* Flycheck extension
+Add this directory to your load path, then require ~flycheck-jslint~.
