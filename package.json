@@ -1,0 +1,28 @@
+{
+  "name": "jslint-cli",
+  "version": "0.0.0",
+  "description": "Run syntax and style checker JSLint from a CLI",
+  "main": "jslint-cli.js",
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koekelas/jslint-cli.git"
+  },
+  "keywords": [
+    "jslint",
+    "lint",
+    "cli"
+  ],
+  "author": "Nicolas De Jaeghere <nicodeja@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Koekelas/jslint-cli/issues"
+  },
+  "homepage": "https://github.com/Koekelas/jslint-cli#readme",
+  "devDependencies": {
+    "nodeunit": "^0.11.2"
+  },
+  "bin": "jslint-cli.js"
+}
