@@ -15,7 +15,7 @@ const {promiseify} = require("./lib/util");
 
 const configDir = `${homedir()}/.jslint-cli`;
 const jslintPath = join(configDir, `jslint.js`);
-const jslintUrl = "https://raw.githubusercontent.com/douglascrockford/JSLint/master/jslint.js";
+const jslintUrl = "https://raw.githubusercontent.com/douglascrockford/JSLint/a5db6895920dcc02924b9dec916568fc707378b0/jslint.js";
 const errorExitCode = 1;
 
 const mkdir = promiseify(fs.mkdir);
