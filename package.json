@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Koekelas/jslint-cli#readme",
   "devDependencies": {
-    "nodeunit": "^0.11.2"
+    "nodeunit": "^0.11.3"
   },
   "bin": "jslint-cli.js"
 }
